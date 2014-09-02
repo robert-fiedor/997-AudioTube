@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp', ['ionic']);
+angular.module('myApp', ['ionic','youtube-embed']);
 
 
 angular.module('myApp').directive('entryFieldDirective', [
@@ -12,6 +12,8 @@ angular.module('myApp').directive('entryFieldDirective', [
                console.log(123);
 
                 scope.lala=1;
+                scope.theBestVideo = 'sMKoNBRZM1M';
+
 
             }
         };

@@ -1,4 +1,4 @@
 'use strict';
 
-angular.module('myApp', ['ionic']);
+angular.module('myApp', ['ionic','youtube-embed']);
 

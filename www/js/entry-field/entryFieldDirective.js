@@ -7,6 +7,8 @@ angular.module('myApp').directive('entryFieldDirective', [
                console.log(123);
 
                 scope.lala=1;
+                scope.theBestVideo = 'sMKoNBRZM1M';
+
 
             }
         };
